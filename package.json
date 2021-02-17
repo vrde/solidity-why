@@ -1,0 +1,24 @@
+{
+  "name": "solidity-why",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ethnode": "ethnode",
+    "test": "hardhat test --network localhost",
+    "ethnode-and-test": "ethnode -e \"npx hardhat test --network localhost\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethnode": "0.0.24",
+    "hardhat": "^2.0.10"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.0",
+    "ethereum-waffle": "^3.2.2",
+    "ethers": "^5.0.31"
+  }
+}
