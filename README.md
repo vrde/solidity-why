@@ -34,7 +34,7 @@ for (let i = 0; i < 100; i++) {
 }
 ```
 
-The test environment runs `geth` in development mode (see [ethnode](/vrde/ethnode)). While a tight loop like this is unrealistic in production environments (mainnet/xdai/whatev) I'm quite puzzled on how this can fail to be honest.
+The test environment runs `geth` in development mode (see [ethnode](https://github.com/vrde/ethnode/)). While a tight loop like this is unrealistic in production environments (mainnet/xdai/whatev) I'm quite puzzled on how this can fail to be honest.
 
 ## How to reproduce
 
